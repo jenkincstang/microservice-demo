@@ -11,15 +11,20 @@ import javax.annotation.PostConstruct;
 
 /**
  * Created by miracle on 2017/1/17.
+ * 分布式配置服务器
+ *
+ * @author Miracle.XJH
+ * @title ConfigServerApplication
+ * @date 2017年01月17日 12:54:36
  */
 @SpringCloudApplication
 @EnableConfigServer
-public class ConfigServer implements CommandLineRunner {
+public class ConfigServerApplication implements CommandLineRunner {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(ConfigServer.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ConfigServerApplication.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServer.class, args);
+        SpringApplication.run(ConfigServerApplication.class, args);
     }
 
     @Override
