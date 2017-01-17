@@ -12,5 +12,8 @@
     <groupId>com.microservice.service</groupId>
     <artifactId>service</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>test-service</module>
+    </modules>
 
 </project>
