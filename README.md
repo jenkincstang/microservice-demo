@@ -13,7 +13,7 @@
     ![输入图片说明](http://git.oschina.net/uploads/images/2017/0114/013731_aaaad60d_489925.jpeg "在这里输入图片标题")
 * api-gateway  
 
-    > api网关，netflix zuul实现  
+    > api网关，netflix zuul实现（为客户端调用服务提供统一入口）  
     ![输入图片说明](http://git.oschina.net/uploads/images/2017/0114/013806_2ed9c7ed_489925.jpeg "在这里输入图片标题")  
     
 * hystrix-dashboard
