@@ -10,7 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.microservice.service</groupId>
-    <artifactId>test-service</artifactId>
+    <artifactId>test-service1</artifactId>
+
 
     <dependencies>
 

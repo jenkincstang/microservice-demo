@@ -5,13 +5,13 @@ import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 /**
- * Created by miracle on 2017/1/17.
+ * Created by miracle on 2017/1/18.
  */
-@SpringCloudApplication
 @EnableFeignClients
-public class TestServiceApplication {
+@SpringCloudApplication
+public class TestService1Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestServiceApplication.class, args);
+        SpringApplication.run(TestService1Application.class, args);
     }
 }
