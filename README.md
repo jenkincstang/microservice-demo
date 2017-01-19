@@ -23,7 +23,15 @@
     > 应用健康信息（spring boot admin）  
 * sleuth-stream-server
     > 服务跟踪  
-
+### service 
+#### 服务示例
+    > 这一模块有两个服务示例，服务中使用了
+        eureka feign（Http 客户端）
+            此客户端可以让http调用更加方便，默认使用了eureka ribbon客户端负载均衡 
+        eureka hystrix（断路器）
+            客户端在一次服务调用中，可能会涉及到很多微服务的调用，断路器的引入，在部分非必要服务不可用的情况下，
+            客户能够得到正常响应。  
+            
 #### 启动顺序
 1. 启动config-server  
     > 先启动配置服务
