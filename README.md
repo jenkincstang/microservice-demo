@@ -22,7 +22,8 @@
 * monitor-server
     > 应用健康信息（spring boot admin）  
 * sleuth-stream-server
-    > 服务跟踪
+    > 服务跟踪  
+
 #### 启动顺序
 1. 启动config-server  
     > 先启动配置服务
