@@ -26,8 +26,8 @@
     
 ### service  
 
-#### 服务示例
-    > 这一模块有两个服务示例，服务中使用了
+#### 服务示例  
+   > 这一模块有两个服务示例，服务中使用了
         eureka feign（Http 客户端）
             此客户端可以让http调用更加方便，默认使用了eureka ribbon客户端负载均衡 
         eureka hystrix（断路器）
