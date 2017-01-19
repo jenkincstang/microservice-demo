@@ -4,6 +4,7 @@
 * config-server  
 
     > 分布式配置服务  
+    ![输入图片说明](http://git.oschina.net/uploads/images/2017/0119/170644_c07b7897_489925.png "在这里输入图片标题")
     ![输入图片说明](http://git.oschina.net/uploads/images/2017/0114/013548_42cfa443_489925.jpeg "配置服务器")
     
 * discovery-server  
