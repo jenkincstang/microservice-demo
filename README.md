@@ -43,6 +43,7 @@
     > 先启动配置服务
 2. 启动discovery-server  
 
-    > 再启动服务注册与发现服务
+    > 再启动服务注册与发现服务，启动完成后访问http://localhost:8761
+    ![输入图片说明](http://git.oschina.net/uploads/images/2017/0119/173856_255c9a70_489925.png "在这里输入图片标题")
 
 3. 其他服务没有顺序
